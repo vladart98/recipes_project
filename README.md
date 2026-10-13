@@ -1,6 +1,6 @@
 # Recipes Project
 
-This project contains several HTML recipe pages.
+This project contains several HTML recipe pages with some styles.
 
 ---
 
@@ -18,3 +18,7 @@ This project contains several HTML recipe pages.
 - Lists
 - Links
 - Images
+- Display types
+- Padding
+- Mergins
+  
