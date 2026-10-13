@@ -10,6 +10,7 @@ h1 {
 
 
 #list {
+    background-color: rgb(237, 237, 199);
     border: 5px solid rgba(176, 181, 135, 0.816);
     border-radius: 50px;
     text-align: center;
@@ -24,11 +25,11 @@ ul {
 }
 
 .recipe {
-    background-color: rgba(176, 181, 135, 0.816);
+    background-color: rgba(178, 181, 135, 0.816);
     display: inline-block;
-    padding: 5px;
     width: 220px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 a:link, a:visited {
@@ -43,4 +44,39 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.9);
     color: rgba(204, 215, 121, 0.981);
     box-sizing: border-box;
+}
+
+.description, .ingridients, .steps {
+    background-color: rgb(237, 237, 199);
+    border: 5px solid rgba(176, 181, 135, 0.816);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.ital.home {
+    font-style: italic;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 10px;
+    width: fit-content;
+}
+
+#goulash, #potato-pancakes {
+    border: 5px solid rgba(176, 181, 135, 0.816);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
 }
