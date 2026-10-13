@@ -20,5 +20,5 @@ This project contains several HTML recipe pages with some styles.
 - Images
 - Display types
 - Padding
-- Mergins
+- Margins
   
