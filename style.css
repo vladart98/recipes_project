@@ -20,7 +20,6 @@ h1 {
 
 ul {
     list-style-type: none;
-    /* list-style-position: outside; */
     padding-left: 0px;
 }
 
@@ -40,7 +39,7 @@ a:link, a:visited {
     color: black;
 }
 
-a:hover {
+.hover:hover {
     background-color: rgba(0, 0, 0, 0.9);
     color: rgba(204, 215, 121, 0.981);
     box-sizing: border-box;
@@ -71,12 +70,11 @@ span {
 }
 
 #goulash, #potato-pancakes {
+    display: block;
     border: 5px solid rgba(176, 181, 135, 0.816);
     border-radius: 25px;
-    margin: 10px;
-    padding: 0px;
-    display: block;
     margin: 0 auto;
+    padding: 0;
     width: auto;
     height: 400px;
 }
